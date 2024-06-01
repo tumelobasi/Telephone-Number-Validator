@@ -1,0 +1,82 @@
+/* Import Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+/* Body */
+body {
+  font-family: Roboto, Arial, Verdana, sans-serif;
+  background-color: #121212; /* Dark background color */
+  color: #ffffff; /* Light text color */
+}
+
+/* Main */
+main {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Phone Container */
+.phone-container {
+  width: 260px;
+  height: 460px;
+  margin: 30px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 15px solid #ffffff; /* Light border color */
+  background-color: #333333; /* Dark background color */
+}
+
+label {
+  margin: 10px auto;
+  color: #ffffff; /* Light text color */
+}
+
+input {
+  font-family: inherit;
+  display: block;
+  margin: 10px auto;
+  padding: 5px;
+  text-align: center;
+  width: 90%;
+  height: 42px;
+  font-size: 16px;
+  border: 1px solid #ffffff; /* Light border color */
+  background-color: #666666; /* Dark input background color */
+  color: #ffffff; /* Light text color */
+}
+
+button {
+  font-family: inherit;
+  cursor: pointer;
+  width: 100px;
+  margin: 10px;
+  font-size: 18px;
+  color: #ffffff; /* Light text color */
+}
+
+#check-btn {
+  background-color: #536dfe; /* Darker button background color */
+}
+
+#clear-btn {
+  background-color: #ffd600; /* Yellow button background color */
+}
+
+/* Phone Footer */
+.phone-footer {
+  background-color: #333333; /* Dark background color */
+}
+
+/* Results */
+#results-div {
+  height: 200px;
+  width: 100%;
+  font-size: 1.2rem;
+  text-align: center;
+  margin: 10px 0;
+  color: #ffffff; /* Light text color */
+}
